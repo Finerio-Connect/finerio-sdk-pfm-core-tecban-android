@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun configSDK() {
         val finerioConnectCore = shared
-        finerioConnectCore.apiKey = "5b717836-aa94-4009-b5ad-aff202aa6a6f"
+        finerioConnectCore.apiKey = "your_api_key"
         finerioConnectCore.environment = Environment.SANDBOX
         finerioConnectCore.logLevel = LogLevel.DEBUG
         finerioConnectCore.configure()
