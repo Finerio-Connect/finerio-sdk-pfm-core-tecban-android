@@ -1,0 +1,20 @@
+<resources>
+    <string name="no_category_label">Sin categoría</string>
+
+    <string name="total_label">Total</string>
+    <string name="average_label">Promedio</string>
+    <string name="analysis_count_label">#</string>
+    <string name="budget_rest_exceeded">Excedido</string>
+    <string name="budget_rest">Por ejecutar</string>
+    <string name="select">Seleccionar</string>
+    <string name="selectAll">Seleccionar todo</string>
+    <string name="clear">Limpiar</string>
+    <string name="contactSupport">Lo sentimos estamos teniendo problemas técnicos, si el problema persiste contacta a soporte técnico.</string>
+    <string name="ok">OK</string>
+    <string name="available_amount">Limite Disponible</string>
+    <string name="limit_amount">Monto limite</string>
+    <string name="used_amount">Monto utilizado</string>
+    <string name="credits_section_label">Tarjetas</string>
+    <string name="limit_credit_Label">Limite inicial: </string>
+    <string name="empty_string">-</string>
+</resources>
