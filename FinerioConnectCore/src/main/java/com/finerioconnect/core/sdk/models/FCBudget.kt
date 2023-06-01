@@ -22,7 +22,7 @@ import com.squareup.moshi.JsonClass
 @JsonClass(generateAdapter = true)
 data class FCBudget(
     @Json(name = "id") val id : Int,
-    @Json(name = "categoryId") val categoryId : Int,
+    @Json(name = "categoryId") val categoryId : Long,
     @Json(name = "name") val name : String,
     @Json(name = "amount") val amount : Double,
     @Json(name = "warningPercentage") val warningPercentage : Double,
