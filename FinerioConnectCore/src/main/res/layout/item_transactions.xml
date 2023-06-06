@@ -61,7 +61,7 @@
                     android:layout_height="24dp"
                     android:layout_centerVertical="true"
                     tools:ignore="ContentDescription"
-                    tools:srcCompat="@drawable/iso" />
+                    tools:srcCompat="@drawable/bg_circle_gray" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/tvTransactionType"
