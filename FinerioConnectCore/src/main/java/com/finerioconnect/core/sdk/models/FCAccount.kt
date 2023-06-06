@@ -19,26 +19,15 @@ import com.squareup.moshi.JsonClass
  */
 @JsonClass(generateAdapter = true)
 data class FCAccount(
-    @Json(name = "id")
-    var id: Int?,
-    @Json(name = "providerId")
-    var providerId: String?,
-    @Json(name = "financialEntityId")
-    var financialEntityId: Int?,
-    @Json(name = "nature")
-    var nature: String?,
-    @Json(name = "name")
-    var name: String?,
-    @Json(name = "number")
-    var number: String?,
-    @Json(name = "balance")
-    var balance: Double?,
-    @Json(name = "chargeable")
-    var chargeable: Boolean?,
-    @Json(name = "dateCreated")
-    var dateCreated: Long?,
-    @Json(name = "lastUpdated")
-    var lastUpdated: Long?,
-    @Json(name = "isBankAggregation")
-    var isBankAggregation: Boolean?
+    @Json(name = "id") var id: Int?,
+    @Json(name = "providerId") var providerId: String?,
+    @Json(name = "financialEntityId") var financialEntityId: Int?,
+    @Json(name = "nature") var nature: String?,
+    @Json(name = "name") var name: String?,
+    @Json(name = "number") var number: String?,
+    @Json(name = "balance") var balance: Double?,
+    @Json(name = "chargeable") var chargeable: Boolean?,
+    @Json(name = "dateCreated") var dateCreated: Long?,
+    @Json(name = "lastUpdated") var lastUpdated: Long?,
+    @Json(name = "isBankAggregation") var isBankAggregation: Boolean?
 )

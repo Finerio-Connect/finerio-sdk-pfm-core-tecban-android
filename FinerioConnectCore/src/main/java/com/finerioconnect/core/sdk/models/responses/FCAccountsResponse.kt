@@ -12,8 +12,6 @@ import com.squareup.moshi.JsonClass
  */
 @JsonClass(generateAdapter = true)
 data class FCAccountsResponse(
-    @Json(name = "data")
-    var data: List<FCAccount>?,
-    @Json(name = "nextCursor")
-    var nextCursor: Int?
+    @Json(name = "data") var data: List<FCAccount>?,
+    @Json(name = "nextCursor") var nextCursor: Int?
 )
