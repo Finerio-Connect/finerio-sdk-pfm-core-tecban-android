@@ -20,8 +20,8 @@ class FCEnvironmentDetails {
     fun getDetails(environment: Environment) : FCEnvironmentDetails {
         when(environment) {
             Environment.SANDBOX -> {
-                scheme = "https://"
-                host = "api-pfm-openbanking-v1.finerioconnect.com/"
+                scheme = "http://"
+                host = "ec2-3-21-18-54.us-east-2.compute.amazonaws.com:8081/"
                 version = ""
             }
             Environment.PRODUCTION -> {
