@@ -2,7 +2,7 @@ package com.finerioconnect.pfm.sdk.tecban.sdkcore
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.finerioconnect.core.sdk.core.FinerioConnectCore.Companion.shared
+import com.finerioconnect.core.sdk.core.OpenBankingCore.Companion.shared
 import com.finerioconnect.core.sdk.shared.enums.Environment
 import com.finerioconnect.core.sdk.shared.enums.LogLevel
 
