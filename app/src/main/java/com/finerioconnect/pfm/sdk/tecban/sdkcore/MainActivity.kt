@@ -2,9 +2,9 @@ package com.finerioconnect.pfm.sdk.tecban.sdkcore
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.finerioconnect.core.sdk.core.OpenBankingCore.Companion.shared
-import com.finerioconnect.core.sdk.shared.enums.Environment
-import com.finerioconnect.core.sdk.shared.enums.LogLevel
+import com.openbanking.core.sdk.core.OpenBankingCore.Companion.shared
+import com.openbanking.core.sdk.shared.enums.Environment
+import com.openbanking.core.sdk.shared.enums.LogLevel
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
