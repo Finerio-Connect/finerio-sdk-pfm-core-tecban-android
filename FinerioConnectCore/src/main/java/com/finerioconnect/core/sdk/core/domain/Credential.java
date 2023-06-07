@@ -3,7 +3,7 @@ package com.finerioconnect.core.sdk.core.domain;
 import java.util.Date;
 import java.util.List;
 
-public class Credential implements FinerioConnectDomain {
+public class Credential implements OpenBankingDomain {
 
   public enum CredentialStatus {
     ACTIVE,

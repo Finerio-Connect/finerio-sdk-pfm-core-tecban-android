@@ -1,20 +1,20 @@
 package com.finerioconnect.core.sdk.helpers
 
 import android.util.Log
-import com.finerioconnect.core.sdk.core.FinerioConnectCore
+import com.finerioconnect.core.sdk.core.OpenBankingCore
 import com.finerioconnect.core.sdk.shared.enums.LogLevel
 
 private const val TAG = "Finero Connect"
 
 fun logInfo(message: String){
-    if(FinerioConnectCore.shared.logLevel.ordinal < LogLevel.INFO.ordinal){
+    if(OpenBankingCore.shared.logLevel.ordinal < LogLevel.INFO.ordinal){
         return
     }
     Log.i(TAG, message)
 }
 
 fun logWarn(message: String, filename: String = "", line: Int = -1, funcName: String = ""){
-    if(FinerioConnectCore.shared.logLevel.ordinal < LogLevel.ERROR.ordinal){
+    if(OpenBankingCore.shared.logLevel.ordinal < LogLevel.ERROR.ordinal){
         return
     }
     val caller = "$filename - #$line - $funcName"
@@ -24,7 +24,7 @@ fun logWarn(message: String, filename: String = "", line: Int = -1, funcName: St
 
 
 fun logError(error: Exception, filename: String = "", line: Int = -1, funcName: String = ""){
-    if(FinerioConnectCore.shared.logLevel.ordinal < LogLevel.ERROR.ordinal){
+    if(OpenBankingCore.shared.logLevel.ordinal < LogLevel.ERROR.ordinal){
         return
     }
     val errorMessage = error.message?:""

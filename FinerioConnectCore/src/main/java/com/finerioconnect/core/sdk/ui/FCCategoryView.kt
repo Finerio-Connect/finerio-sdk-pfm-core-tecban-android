@@ -6,7 +6,7 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import androidx.core.content.ContextCompat
 import com.finerioconnect.core.sdk.R
-import com.finerioconnect.core.sdk.core.FinerioConnectCore
+import com.finerioconnect.core.sdk.core.OpenBankingCore
 import com.finerioconnect.core.sdk.core.category.CategoryPalette
 import com.finerioconnect.core.sdk.core.category.CategoryTexts
 import com.finerioconnect.core.sdk.databinding.PartialCategoryViewBinding
@@ -70,7 +70,7 @@ class FCCategoryView(context: Context, attrs: AttributeSet? = null) :
     }
 
     private fun setUpInputs() = with(mBinding) {
-        val font = FinerioConnectCore.shared.fonts.regular
+        val font = OpenBankingCore.shared.fonts.regular
         buttonSelect.text = resources.getString(R.string.select)
         buttonClear.text = resources.getString(R.string.clear)
         if (texts != null) {

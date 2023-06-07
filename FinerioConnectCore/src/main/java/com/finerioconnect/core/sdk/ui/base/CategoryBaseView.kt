@@ -3,7 +3,7 @@ package com.finerioconnect.core.sdk.ui.base
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.LinearLayoutCompat
-import com.finerioconnect.core.sdk.core.FinerioConnectCore
+import com.finerioconnect.core.sdk.core.OpenBankingCore
 import com.finerioconnect.core.sdk.helpers.logWarn
 
 open class CategoryBaseView  @JvmOverloads constructor(
@@ -15,7 +15,7 @@ open class CategoryBaseView  @JvmOverloads constructor(
     }
 
     protected fun checkSDKCoreConfiguration() {
-        if (!FinerioConnectCore.shared.isReadySDK) {
+        if (!OpenBankingCore.shared.isReadySDK) {
             logWarn("You must configure the FineroConnectSDK to continue")
             return
         }

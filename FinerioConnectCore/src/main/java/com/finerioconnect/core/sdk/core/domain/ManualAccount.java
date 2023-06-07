@@ -2,7 +2,7 @@ package com.finerioconnect.core.sdk.core.domain;
 
 import java.math.BigDecimal;
 
-public class ManualAccount implements FinerioConnectDomain {
+public class ManualAccount implements OpenBankingDomain {
 
   public enum ManualAccountType {
     CASH,

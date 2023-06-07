@@ -1,6 +1,6 @@
 package com.finerioconnect.core.sdk.core.domain;
 
-public class Bank extends FinerioConnectImage implements FinerioConnectDomain {
+public class Bank extends OpenBankingImage implements OpenBankingDomain {
 
   private String id;
   private String name;

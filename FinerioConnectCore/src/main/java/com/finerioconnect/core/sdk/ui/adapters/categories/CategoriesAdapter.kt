@@ -13,7 +13,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import com.finerioconnect.core.sdk.R
-import com.finerioconnect.core.sdk.core.FinerioConnectCore
+import com.finerioconnect.core.sdk.core.OpenBankingCore
 import com.finerioconnect.core.sdk.databinding.ItemCategoryGroupBinding
 import com.finerioconnect.core.sdk.databinding.ItemSubcategoryChildBinding
 import com.finerioconnect.core.sdk.extensions.typeFace
@@ -143,7 +143,7 @@ class CategoriesAdapter(
             textColor, -1
         )
         setCategoryImage(binding.imageViewCategoryIcon, categories[groupPosition])
-        val font = FinerioConnectCore.shared.fonts.bold
+        val font = OpenBankingCore.shared.fonts.bold
         binding.textViewCategoryName.typeFace(font, Typeface.BOLD)
         setCheckboxGroup(binding, groupPosition)
     }
@@ -230,7 +230,7 @@ class CategoriesAdapter(
             binding.checkboxSubcategory, currentCategory?.name ?: "",
             textColor, -1
         )
-        val font = FinerioConnectCore.shared.fonts.regular
+        val font = OpenBankingCore.shared.fonts.regular
         binding.checkboxSubcategory.typeFace(font, Typeface.NORMAL)
         setUpCheckboxChild(binding, groupPosition, childPosition)
     }

@@ -5,7 +5,7 @@ import android.os.Parcelable;
 
 import java.util.List;
 
-public class Category implements FinerioConnectDomain, Parcelable {
+public class Category implements OpenBankingDomain, Parcelable {
 
   private String id;
   private String parentId;

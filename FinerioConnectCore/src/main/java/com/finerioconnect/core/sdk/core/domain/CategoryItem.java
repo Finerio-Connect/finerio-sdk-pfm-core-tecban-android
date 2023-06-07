@@ -3,7 +3,7 @@ package com.finerioconnect.core.sdk.core.domain;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class CategoryItem extends FinerioConnectImage implements Parcelable {
+public class CategoryItem extends OpenBankingImage implements Parcelable {
 
   private Category category;
 

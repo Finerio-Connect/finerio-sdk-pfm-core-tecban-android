@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import com.finerioconnect.core.sdk.R
-import com.finerioconnect.core.sdk.core.FinerioConnectCore
+import com.finerioconnect.core.sdk.core.OpenBankingCore
 import com.finerioconnect.core.sdk.extensions.dpToPx
 import com.finerioconnect.core.sdk.ui.models.SwitchButtonPalette
 
@@ -107,7 +107,7 @@ class FCSwitchButton @JvmOverloads constructor(
         if (titleColor != 0) {
             mTvTitle.setTextColor(titleColor)
         }
-        FinerioConnectCore.shared.fonts.family?.let {
+        OpenBankingCore.shared.fonts.family?.let {
             mTvTitle.typeface = it
         }
     }

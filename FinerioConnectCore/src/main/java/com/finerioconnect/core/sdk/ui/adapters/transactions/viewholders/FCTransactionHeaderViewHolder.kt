@@ -2,7 +2,7 @@ package com.finerioconnect.core.sdk.ui.adapters.transactions.viewholders
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
-import com.finerioconnect.core.sdk.core.FinerioConnectCore
+import com.finerioconnect.core.sdk.core.OpenBankingCore
 import com.finerioconnect.core.sdk.databinding.ItemHeaderDateBinding
 import com.finerioconnect.core.sdk.extensions.formatAmount
 import com.finerioconnect.core.sdk.extensions.safe
@@ -25,7 +25,7 @@ class FCTransactionHeaderViewHolder(itemView: View) : RecyclerView.ViewHolder(it
             tvDateTitle.setTextColor(it)
             tvAmount.setTextColor(it)
         }
-        FinerioConnectCore.shared.fonts.family?.let {
+        OpenBankingCore.shared.fonts.family?.let {
             tvDateTitle.typeface = it
             tvAmount.typeface = it
         }

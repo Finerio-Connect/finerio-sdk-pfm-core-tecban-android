@@ -3,7 +3,7 @@ package com.finerioconnect.core.sdk.core.domain;
 import java.math.BigDecimal;
 import java.util.List;
 
-public class Budget implements FinerioConnectDomain {
+public class Budget implements OpenBankingDomain {
 
   private String id;
   private String name;

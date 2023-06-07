@@ -10,7 +10,7 @@ import androidx.core.widget.ImageViewCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.finerioconnect.core.sdk.R
-import com.finerioconnect.core.sdk.core.FinerioConnectCore
+import com.finerioconnect.core.sdk.core.OpenBankingCore
 import com.finerioconnect.core.sdk.databinding.ItemTransactionsBinding
 import com.finerioconnect.core.sdk.extensions.*
 import com.finerioconnect.core.sdk.ui.adapters.transactions.FCTransactionAdapter
@@ -103,7 +103,7 @@ class FCTransactionBodyViewHolder<T>(
     }
 
     private fun configTypeface() = with(mBinding) {
-        FinerioConnectCore.shared.fonts.family?.let {
+        OpenBankingCore.shared.fonts.family?.let {
             tvTransactionName.typeface = it
             tvTransactionType.typeface = it
             tvAmount.typeface = it

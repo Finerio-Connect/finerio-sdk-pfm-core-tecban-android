@@ -27,7 +27,7 @@ class ServerImpl(private val baseUrl: String, private val isDebug: Boolean) : Se
             .build()
     }
 
-    override fun<T: FinerioConnectApi> api(apiClient: Class<T>): T = Retrofit.Builder()
+    override fun<T: PfmSdkApi> api(apiClient: Class<T>): T = Retrofit.Builder()
         .baseUrl(baseUrl)
         .client(okHttpClient)
         .addConverterFactory(MoshiConverterFactory.create().asLenient())

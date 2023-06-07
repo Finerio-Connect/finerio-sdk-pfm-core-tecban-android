@@ -1,9 +1,9 @@
 package com.finerioconnect.core.sdk.core.rows;
 
-import com.finerioconnect.core.sdk.core.domain.FinerioConnectImage;
+import com.finerioconnect.core.sdk.core.domain.OpenBankingImage;
 import com.finerioconnect.core.sdk.core.domain.Transaction;
 
-public class TransactionRow extends FinerioConnectImage {
+public class TransactionRow extends OpenBankingImage {
 
   private Transaction transaction;
   private Boolean canBeDeleted;

@@ -3,13 +3,13 @@ package com.finerioconnect.core.sdk.core.domain;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class FinerioConnectImage implements Parcelable {
+public class OpenBankingImage implements Parcelable {
 
   private String imageUrl;
   private String imageFile;
   private Integer imageResource;
 
-  public FinerioConnectImage() {
+  public OpenBankingImage() {
 
   }
 
@@ -37,7 +37,7 @@ public class FinerioConnectImage implements Parcelable {
     this.imageResource = imageResource;
   }
 
-  protected FinerioConnectImage( Parcel in ) {
+  protected OpenBankingImage(Parcel in ) {
     imageUrl = in.readString();
     imageFile = in.readString();
     if ( in.readByte() == 0 ) {
@@ -64,15 +64,15 @@ public class FinerioConnectImage implements Parcelable {
     return 0;
   }
 
-  public static final Creator<FinerioConnectImage> CREATOR = new Creator<FinerioConnectImage>() {
+  public static final Creator<OpenBankingImage> CREATOR = new Creator<OpenBankingImage>() {
     @Override
-    public FinerioConnectImage createFromParcel( Parcel in ) {
-      return new FinerioConnectImage( in );
+    public OpenBankingImage createFromParcel(Parcel in ) {
+      return new OpenBankingImage( in );
     }
 
     @Override
-    public FinerioConnectImage[] newArray( int size ) {
-      return new FinerioConnectImage[ size ];
+    public OpenBankingImage[] newArray(int size ) {
+      return new OpenBankingImage[ size ];
     }
   };
 

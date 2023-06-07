@@ -5,10 +5,10 @@ import com.finerioconnect.core.sdk.modelsui.Fonts
 import com.finerioconnect.core.sdk.shared.enums.Environment
 import com.finerioconnect.core.sdk.shared.enums.LogLevel
 
-class FinerioConnectCore private constructor() {
+class OpenBankingCore private constructor() {
 
     companion object {
-        val shared = FinerioConnectCore()
+        val shared = OpenBankingCore()
     }
 
     private var configuration: Configuration = Configuration()

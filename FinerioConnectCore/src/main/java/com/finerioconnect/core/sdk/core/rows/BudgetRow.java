@@ -1,9 +1,9 @@
 package com.finerioconnect.core.sdk.core.rows;
 
 import com.finerioconnect.core.sdk.core.domain.Budget;
-import com.finerioconnect.core.sdk.core.domain.FinerioConnectImage;
+import com.finerioconnect.core.sdk.core.domain.OpenBankingImage;
 
-public class BudgetRow extends FinerioConnectImage {
+public class BudgetRow extends OpenBankingImage {
 
   private Budget budget;
   private BudgetRowListener listener;

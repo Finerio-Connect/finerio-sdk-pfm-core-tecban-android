@@ -3,7 +3,7 @@ package com.finerioconnect.core.sdk.core.domain;
 import java.math.BigDecimal;
 import java.util.Date;
 
-public class Transaction implements FinerioConnectDomain {
+public class Transaction implements OpenBankingDomain {
 
   private String id;
   private Date date;

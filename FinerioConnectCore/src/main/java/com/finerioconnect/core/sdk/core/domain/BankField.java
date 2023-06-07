@@ -1,6 +1,6 @@
 package com.finerioconnect.core.sdk.core.domain;
 
-public class BankField implements FinerioConnectDomain {
+public class BankField implements OpenBankingDomain {
 
   public enum BankFieldType {
     TEXT,

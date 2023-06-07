@@ -11,7 +11,7 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.core.widget.ImageViewCompat
 import com.finerioconnect.core.sdk.R
-import com.finerioconnect.core.sdk.core.FinerioConnectCore
+import com.finerioconnect.core.sdk.core.OpenBankingCore
 
 class FCLineButton @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null
@@ -62,7 +62,7 @@ class FCLineButton @JvmOverloads constructor(
         if (titleColor != 0) {
             tvTitle.setTextColor(ContextCompat.getColor(context, titleColor))
         }
-        FinerioConnectCore.shared.fonts.family?.let {
+        OpenBankingCore.shared.fonts.family?.let {
             tvTitle.typeface = it
         }
     }

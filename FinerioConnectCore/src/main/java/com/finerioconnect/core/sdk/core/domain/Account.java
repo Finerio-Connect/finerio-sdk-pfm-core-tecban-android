@@ -2,7 +2,7 @@ package com.finerioconnect.core.sdk.core.domain;
 
 import java.math.BigDecimal;
 
-public class Account implements FinerioConnectDomain {
+public class Account implements OpenBankingDomain {
 
   private String id;
   private String name;

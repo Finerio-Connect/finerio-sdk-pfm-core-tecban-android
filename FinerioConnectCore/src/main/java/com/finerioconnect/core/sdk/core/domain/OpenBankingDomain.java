@@ -1,6 +1,6 @@
 package com.finerioconnect.core.sdk.core.domain;
 
-public interface FinerioConnectDomain {
+public interface OpenBankingDomain {
 
   public void setId( String id );
 

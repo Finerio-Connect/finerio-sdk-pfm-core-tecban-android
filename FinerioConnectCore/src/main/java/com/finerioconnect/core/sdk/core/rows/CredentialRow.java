@@ -3,12 +3,12 @@ package com.finerioconnect.core.sdk.core.rows;
 import android.app.Activity;
 
 import com.finerioconnect.core.sdk.core.domain.Credential;
-import com.finerioconnect.core.sdk.core.domain.FinerioConnectImage;
+import com.finerioconnect.core.sdk.core.domain.OpenBankingImage;
 import com.finerioconnect.core.sdk.core.domain.ManualAccount;
 
 import java.util.List;
 
-public class CredentialRow extends FinerioConnectImage {
+public class CredentialRow extends OpenBankingImage {
 
   private Credential credential;
   private ManualAccount manualAccount;

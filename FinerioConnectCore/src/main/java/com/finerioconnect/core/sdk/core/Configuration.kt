@@ -6,14 +6,6 @@ import com.finerioconnect.core.sdk.shared.enums.LogLevel
 
 class Configuration {
 
-    // MARK: Global Constants
-
-    companion object {
-        const val ERROR_DOMAIN = "com.finerioconnect.network"
-        const val FINERIO_CONNECT_ERROR_KEY = "FinerioConnectErrorKey"
-        const val FINERIO_CONNECT_ERROR_DEBUG_KEY = "FinerioConnectErrorDebugKey"
-    }
-
     // MARK: Global Variables
 
     var logLevel: LogLevel = LogLevel.INFO
