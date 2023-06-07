@@ -1,7 +1,7 @@
 package com.openbanking.core.sdk.core
 
 import com.openbanking.core.sdk.helpers.logInfo
-import com.openbanking.core.sdk.modelsui.Fonts
+import com.openbanking.core.sdk.models.Fonts
 import com.openbanking.core.sdk.shared.enums.Environment
 import com.openbanking.core.sdk.shared.enums.LogLevel
 
