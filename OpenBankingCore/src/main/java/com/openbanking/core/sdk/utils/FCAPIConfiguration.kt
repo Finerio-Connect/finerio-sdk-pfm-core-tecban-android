@@ -6,7 +6,6 @@ import java.util.*
  * FCAPIConfiguration.kt
  * FCAPIConfiguration main class to set API configuration
  *
- * Copyright © 2022 Finerio Connect. All rights reserved.
  */
 class FCAPIConfiguration {
     companion object {

@@ -12,7 +12,6 @@ import com.squareup.moshi.JsonClass
  * @param amount The amount of the budget.
  * @param warningPercentage The percentage where the budget status changes from stable to warning.
  *
- * Copyright © 2022 Finerio Connect. All rights reserved.
  */
 @JsonClass(generateAdapter = true)
 data class FCCreateBudgetRequest(

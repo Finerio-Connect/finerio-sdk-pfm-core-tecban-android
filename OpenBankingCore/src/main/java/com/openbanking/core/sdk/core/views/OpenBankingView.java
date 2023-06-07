@@ -5,7 +5,7 @@ import android.view.View;
 import java.io.File;
 import java.net.URL;
 
-public abstract class FinerioConnectView {
+public abstract class OpenBankingView {
 
   private URL animationUrl;
   private File animationFile;

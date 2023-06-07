@@ -11,7 +11,6 @@ import com.squareup.moshi.JsonClass
  * @param warningPercentage The percentage where the budget status changes from stable to warning.
  * @param categoryId The category ID of the budget.
  *
- * Copyright © 2022 Finerio Connect. All rights reserved.
  */
 @JsonClass(generateAdapter = true)
 data class FCUpdateBudgetRequest(

@@ -48,7 +48,7 @@ class OpenBankingCore private constructor() {
         }
 
     fun configure() {
-        logInfo("FinerioConnectCore configured...")
+        logInfo("OpenBankingCore configured...")
 
         configuration.setIsReadySDK(true)
     }

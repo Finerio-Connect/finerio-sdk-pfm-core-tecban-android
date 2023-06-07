@@ -11,7 +11,6 @@ import com.squareup.moshi.JsonClass
  * @param color The color of the category.
  * @param parentCategoryId The ID of the parent category that owns this subcategory.
  *
- * Copyright © 2022 Finerio Connect. All rights reserved.
  */
 @JsonClass(generateAdapter = true)
 data class FCCreateCategoryRequest(

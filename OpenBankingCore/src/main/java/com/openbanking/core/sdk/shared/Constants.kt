@@ -6,12 +6,6 @@ object Constants {
         const val DRAWABLE_NAME = "drawable"
     }
 
-    object URLS {
-        const val PRIVACY_TERMS = "https://finerioconnect.com/privacy"
-        const val TERMS_AND_CONDITIONS = "https://finerioconnect.com/license"
-        const val cdnWidget = "https://cdn.finerio.mx/widget"
-    }
-
     /// Tags
     object Tags {
         const val LOADER = 200

@@ -11,10 +11,6 @@ class FCDatePickerDialog(
     private val listener: DatePickerDialog.OnDateSetListener
 ) : DialogFragment(), DatePickerDialog.OnDateSetListener {
 
-    companion object {
-        const val FINERIO_DATE_PICKER = "finerioDatePicker"
-    }
-
     override fun onDateSet(view: DatePicker?, year: Int, month: Int, dayOfMonth: Int) {
         listener.onDateSet(view, year, month, dayOfMonth)
     }

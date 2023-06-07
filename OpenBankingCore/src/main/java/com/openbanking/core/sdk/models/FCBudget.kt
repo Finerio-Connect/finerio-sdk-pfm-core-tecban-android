@@ -17,7 +17,6 @@ import com.squareup.moshi.JsonClass
  * @param dateCreated The date when the budget was created.
  * @param lastUpdated The date when the budget was updated.
  *
- * Copyright © 2022 Finerio Connect. All rights reserved.
  */
 @JsonClass(generateAdapter = true)
 data class FCBudget(

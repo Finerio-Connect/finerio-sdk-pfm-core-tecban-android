@@ -10,7 +10,6 @@ import com.squareup.moshi.JsonClass
  * @param incomes The incomes of a user, grouped by month by default.
  * @param expenses The expenses of a user, grouped by month by default
  *
- * Copyright © 2022 Finerio Connect. All rights reserved.
  */
 @JsonClass(generateAdapter = true)
 data class FCResumeBalance(

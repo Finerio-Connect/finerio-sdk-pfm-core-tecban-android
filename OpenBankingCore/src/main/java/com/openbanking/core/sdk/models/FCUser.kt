@@ -10,7 +10,6 @@ import com.squareup.moshi.JsonClass
  * @param cpf The CPF of the user.
  * @param dateCreated The date when the user was created.
  *
- * Copyright © 2022 Finerio Connect. All rights reserved.
  */
 @JsonClass(generateAdapter = true)
 data class FCUser(

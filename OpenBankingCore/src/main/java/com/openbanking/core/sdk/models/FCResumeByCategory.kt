@@ -10,7 +10,6 @@ import com.squareup.moshi.JsonClass
  * @param amount The amount of the category.
  * @param subcategories The financial information grouped by subcategories
  *
- * Copyright © 2022 Finerio Connect. All rights reserved.
  */
 @JsonClass(generateAdapter = true)
 data class FCResumeByCategory(
