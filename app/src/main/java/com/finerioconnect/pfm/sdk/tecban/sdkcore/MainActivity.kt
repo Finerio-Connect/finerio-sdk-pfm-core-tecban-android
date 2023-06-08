@@ -15,10 +15,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun configSDK() {
-        val finerioConnectCore = shared
-        finerioConnectCore.apiKey = "your_api_key"
-        finerioConnectCore.environment = Environment.SANDBOX
-        finerioConnectCore.logLevel = LogLevel.DEBUG
-        finerioConnectCore.configure()
+        val openBankingCore = shared
+        openBankingCore.apiKey = "your_api_key"
+        openBankingCore.environment = Environment.SANDBOX
+        openBankingCore.logLevel = LogLevel.DEBUG
+        openBankingCore.configure()
     }
 }
