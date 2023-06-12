@@ -7,11 +7,9 @@ import com.squareup.moshi.JsonClass
 /**
  * FCFinancialEntitiesResponse.kt
  *
- * @param data Array of objects (Financial Entities).
- * @param nextCursor The ID to be used in the next request in the 'cursor' query parameter.
+ * @param financialEntities Array of objects (Financial Entities).
  */
 @JsonClass(generateAdapter = true)
 data class OBFinancialEntitiesResponse(
-    @Json(name = "data") val data : List<OBFinancialEntity>,
-    @Json(name = "nextCursor") val nextCursor : Int?
+    @Json(name = "financialEntities") val financialEntities : List<OBFinancialEntity>,
 )
