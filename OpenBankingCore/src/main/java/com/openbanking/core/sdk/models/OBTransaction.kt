@@ -7,6 +7,7 @@ import com.squareup.moshi.JsonClass
  * FCTransaction
  *
  * @param id The ID of the transaction.
+ * @param accountId The ID of the related account.
  * @param date The date of the transaction.
  * @param charge A flag that indicates if the transaction is a charge or a deposit.
  * @param description The description of the transaction.
@@ -19,6 +20,7 @@ import com.squareup.moshi.JsonClass
 @JsonClass(generateAdapter = true)
 data class OBTransaction(
     @Json(name = "id") val id: Int,
+    @Json(name = "accountId") var accountId: Int?,
     @Json(name = "date") val date: Long,
     @Json(name = "charge") val charge: Boolean,
     @Json(name = "description") val description: String,
