@@ -16,18 +16,12 @@ import com.squareup.moshi.JsonClass
  */
 @JsonClass(generateAdapter = true)
 data class OBCreateAccountRequest(
-    @Json(name = "userId")
-    var userId: Int?,
-    @Json(name = "financialEntityId")
-    var financialEntityId: Int?,
-    @Json(name = "nature")
-    var nature: String?,
-    @Json(name = "name")
-    var name: String?,
-    @Json(name = "number")
-    var number: String?,
-    @Json(name = "balance")
-    var balance: Double?,
-    @Json(name = "chargeable")
-    var chargeable: Boolean?
+    @Json(name = "userId") var userId: Int?,
+    @Json(name = "financialEntityId") var financialEntityId: Int?,
+    @Json(name = "nature") var nature: String?,
+    @Json(name = "name") var name: String?,
+    @Json(name = "number") var number: String?,
+    @Json(name = "balance") var balance: Double?,
+    @Json(name = "chargeable") var chargeable: Boolean?,
+    @Json(name = "extra_data") var extraData: String?
 )
